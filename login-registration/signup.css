@@ -1,0 +1,163 @@
+ body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(22, 20, 20);
+    background-size: cover;
+    background-position: center;
+    max-height: 120vh;
+}
+
+
+.studentsignup{
+    max-width: 50%;
+    max-height: 110vh;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin-left: 60.2%;
+    text-align: center;
+    align-items:end;
+}
+
+.studentsignup h1{
+    color: #9BBEC8;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.studentsignup h4{
+    color: #C2D9FF;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.input-box{
+    padding: 18px;
+    margin: 8px 0;
+    width: 80%;
+    border: 1px solid #DDF2FD;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+button{
+    color: #DDF2FD;
+    width: 100%;
+    padding: 10px;
+    
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    
+}
+
+.signin{
+    color: #DDF2FD;
+}
+
+.signup-btn{
+    background-color: wheat;
+    width: 150px;
+    color: black;
+    border-radius: 7px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+.dxSkEj::before {
+    content: "";
+    background: url(half-bg.svg);
+    position: absolute;
+    inset: 0px 44% 0px -115px;
+    z-index: -5;
+}
+.eYkrUJ::before {
+    content: url(auth-arrow.svg);
+    position: absolute;
+    right: 42%;
+    top: 9rem;
+}
+h2 {
+    color: white; 
+    position: absolute; 
+    top: 15%; 
+    left: 13%; 
+    transform: translate(-50%, -50%); 
+    z-index: 100; 
+    font-size: 90px;
+    font-weight: 700;  
+  }
+.saathi{
+    color: white; 
+    position: absolute; 
+    top: 29%; 
+    left: 9%; 
+    transform: translate(-50%, -50%); 
+    z-index: 100; 
+    font-size: 30px;
+    font-weight: 150;
+}
+.image{
+  position: absolute; 
+    top: 70%; 
+    left: 28%; 
+    transform: translate(-50%, -50%); 
+    z-index: 100; 
+    height: 330px;
+    width: 800px;
+}
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  .blink {
+    animation: blink 4s 2s;
+    }
+ 
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+
